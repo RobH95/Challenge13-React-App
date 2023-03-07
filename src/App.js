@@ -7,10 +7,11 @@ import Blog from './components/pages/Blog';
 import Contact from './components/pages/Contact';
 import Projects from './components/pages/Projects';
 
+
 function App() {
   return (
     <Router>
-      <div class="container">
+      <div className="container-fluid bd-dark">
         <NavTabs />
         {/* Wrap Route elements in a Routes component */}
         <Routes basename="challenge13-react-app">
@@ -29,4 +30,3 @@ function App() {
 }
 
 export default App;
-

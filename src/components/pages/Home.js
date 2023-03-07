@@ -1,9 +1,16 @@
 import React from "react";
 
+
 function Home() {
   return (
     <div>
       <h1>Home Page</h1>
+      
+      <section className="dark-grey-bg">
+        <h2>My Section Heading</h2>
+        <p>This is some text that describes my section.</p> 
+      </section>
+    
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna
         varius, blandit rhoncus sem. Morbi lacinia nisi ac dui fermentum, sed luctus urna tincidunt.
