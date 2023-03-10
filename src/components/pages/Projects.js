@@ -1,8 +1,8 @@
 import React from 'react';
-import Project from '../Project';
+import { Container, Row, Col, Card } from 'react-bootstrap';
 
 const Projects = () => {
-  const projects_array = [
+  const projects = [
     {
       title: 'Weather Dashboard (8)',
       deployedLink: 'https://robh95.github.io/Challenge8-Weather-Dashboard/',
@@ -45,23 +45,27 @@ const Projects = () => {
       repoLink: 'https://github.com/RobH95/console-finances/',
       imageURL: 'https://github.com/RobH95/console-finances/raw/main/screenshots/1.png'
     },
-    
   ];
 
   return (
-    <div className="container">
-      <h1>Projects</h1>
-      <div className="row">
-        {projects_array.map((project) => (
-          <Project
-            title={project.title}
-            deployedLink={project.deployedLink}
-            repoLink={project.repoLink}
-            imageURL={project.imageURL}
-          />
+    <Container>
+      <h1 style={{ padding: '20px 0' }}>Projects</h1>
+      <Row>
+        {projects.map((project, index) => (
+          <Col key={index} xs={12} sm={6} md={4} lg={3}>
+            <Card className="mb-4">
+              <Card.Img variant="top" src={project.imageURL} />
+              <Card.Body>
+                <Card.Title>{project.title}</Card.Title>
+                <Card.Link href={project.deployedLink}>Deployed App</Card.Link>
+                <br />
+                <Card.Link href={project.repoLink}>GitHub Repository</Card.Link>
+              </Card.Body>
+            </Card>
+          </Col>
         ))}
-      </div>
-    </div>
+      </Row>
+    </Container>
   );
 };
 

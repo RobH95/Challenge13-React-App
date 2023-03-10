@@ -1,16 +1,29 @@
 import React from "react";
+import { Container, Row, Col } from 'react-bootstrap';
 
 
 function Home() {
   return (
     <div>
-      <h1>Home Page</h1>
-      
+      <Container>
+        <Row>
+          <h1>Home Page</h1>
+        </Row>
+      </Container>
+
+      <div className="p-3 mb-2 bg-secondary text-white"></div>
+
       <section className="dark-grey-bg">
         <h2>My Section Heading</h2>
-        <p>This is some text that describes my section.</p> 
+        <p>This is some text that describes my section.</p>
       </section>
-    
+
+      <Row>
+        <Col xs={6}>Left Column</Col>
+        <Col xs={6}>Right Column</Col>
+      </Row>
+
+
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna
         varius, blandit rhoncus sem. Morbi lacinia nisi ac dui fermentum, sed luctus urna tincidunt.
