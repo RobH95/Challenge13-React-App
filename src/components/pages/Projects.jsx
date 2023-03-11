@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 
+
 const Projects = () => {
   const projects = [
     {
@@ -68,5 +69,50 @@ const Projects = () => {
     </Container>
   );
 };
+
+<Card className="mb-4" style={{ boxShadow: '0 0 10px rgba(0, 0, 0, 0.2)' }}>
+  {/* card contents */}
+</Card>
+
+// let canvas = document.getElementById("canvas");
+// let ctx = canvas.getContext("2d");
+// let ripple = [];
+
+// canvas.width = window.innerWidth;
+// canvas.height = window.innerHeight;
+
+// canvas.addEventListener("mousemove", function(event) {
+//   ripple.push({
+//     x: event.clientX,
+//     y: event.clientY,
+//     size: 0,
+//     maxSize: Math.random() * (50 - 10) + 10,
+//     color: "rgba(255, 255, 255, 0.2)"
+//   });
+// });
+
+// function animate() {
+//   ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+//   for (let i = 0; i < ripple.length; i++) {
+//     ctx.beginPath();
+//     ctx.arc(ripple[i].x, ripple[i].y, ripple[i].size, 0, 2 * Math.PI);
+//     ctx.fillStyle = ripple[i].color;
+//     ctx.fill();
+//     ripple[i].size += 2;
+//     if (ripple[i].size > ripple[i].maxSize) {
+//       ripple.splice(i, 1);
+//       i--;
+//     }
+//   }
+
+//   requestAnimationFrame(animate);
+// }
+
+// animate();
+
+
+
+
 
 export default Projects;

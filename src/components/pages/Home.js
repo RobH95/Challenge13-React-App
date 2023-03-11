@@ -11,12 +11,12 @@ function Home() {
         </Row>
       </Container>
 
-      <div className="p-3 mb-2 bg-secondary text-white"></div>
+      
 
-      <section className="dark-grey-bg">
+      
         <h2>My Section Heading</h2>
         <p>This is some text that describes my section.</p>
-      </section>
+      
 
       <Row>
         <Col xs={6}>Left Column</Col>
