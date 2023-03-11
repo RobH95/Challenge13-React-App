@@ -9,6 +9,16 @@ p {
   color: white;
 }
 
+.Projects {
+  padding: 30px 0;
+  margin-bottom: 50px;
+  
+}
+
+.nav-link {
+color: #00FF07;
+}
+
 /* body {
   background: linear-gradient(to bottom right, #0c1a1a, #6acfc7);
   overflow: hidden;

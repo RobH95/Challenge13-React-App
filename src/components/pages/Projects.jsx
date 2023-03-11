@@ -49,8 +49,12 @@ const Projects = () => {
   ];
 
   return (
+    <div>
     <Container>
-      <h1 style={{ padding: '20px 0' }}>Projects</h1>
+
+      <h1 class="Projects">&lt;Projects&gt;</h1>
+      
+    
       <Row>
         {projects.map((project, index) => (
           <Col key={index} xs={12} sm={6} md={4} lg={3}>
@@ -67,52 +71,12 @@ const Projects = () => {
         ))}
       </Row>
     </Container>
+
+<footer>
+<h1 className="Projects">&lt;/Projects&gt;</h1>
+</footer>
+</div>
   );
 };
-
-<Card className="mb-4" style={{ boxShadow: '0 0 10px rgba(0, 0, 0, 0.2)' }}>
-  {/* card contents */}
-</Card>
-
-// let canvas = document.getElementById("canvas");
-// let ctx = canvas.getContext("2d");
-// let ripple = [];
-
-// canvas.width = window.innerWidth;
-// canvas.height = window.innerHeight;
-
-// canvas.addEventListener("mousemove", function(event) {
-//   ripple.push({
-//     x: event.clientX,
-//     y: event.clientY,
-//     size: 0,
-//     maxSize: Math.random() * (50 - 10) + 10,
-//     color: "rgba(255, 255, 255, 0.2)"
-//   });
-// });
-
-// function animate() {
-//   ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-//   for (let i = 0; i < ripple.length; i++) {
-//     ctx.beginPath();
-//     ctx.arc(ripple[i].x, ripple[i].y, ripple[i].size, 0, 2 * Math.PI);
-//     ctx.fillStyle = ripple[i].color;
-//     ctx.fill();
-//     ripple[i].size += 2;
-//     if (ripple[i].size > ripple[i].maxSize) {
-//       ripple.splice(i, 1);
-//       i--;
-//     }
-//   }
-
-//   requestAnimationFrame(animate);
-// }
-
-// animate();
-
-
-
-
 
 export default Projects;

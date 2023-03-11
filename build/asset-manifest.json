@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/challenge13-react-app/static/css/main.c2cab247.css",
-    "main.js": "/challenge13-react-app/static/js/main.33fc0963.js",
+    "main.css": "/challenge13-react-app/static/css/main.35828eea.css",
+    "main.js": "/challenge13-react-app/static/js/main.9a0c85ec.js",
     "index.html": "/challenge13-react-app/index.html",
-    "main.c2cab247.css.map": "/challenge13-react-app/static/css/main.c2cab247.css.map",
-    "main.33fc0963.js.map": "/challenge13-react-app/static/js/main.33fc0963.js.map"
+    "main.35828eea.css.map": "/challenge13-react-app/static/css/main.35828eea.css.map",
+    "main.9a0c85ec.js.map": "/challenge13-react-app/static/js/main.9a0c85ec.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2cab247.css",
-    "static/js/main.33fc0963.js"
+    "static/css/main.35828eea.css",
+    "static/js/main.9a0c85ec.js"
   ]
 }
