@@ -5,6 +5,7 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Blog from './components/pages/Blog';
 import Contact from './components/pages/Contact';
+import Learn from './components/pages/Learn';
 import Projects from './components/pages/Projects';
 
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/challenge13-react-app/blog" element={<Blog />} />
           {/* Define a route that will have descendant routes */}
           <Route path="/challenge13-react-app/contact/*" element={<Contact />} />
+          <Route path="/challenge13-react-app/learn" element={<Learn />} />
           <Route path="/challenge13-react-app/projects" element={<Projects />} />
         </Routes>
       </div>

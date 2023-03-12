@@ -4,7 +4,7 @@ import React from "react";
 function About() {
   return (
     <div>
-      <h1>About Page</h1>
+      <h1 className="Projects">&lt;About&gt;</h1>
 
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
@@ -13,6 +13,10 @@ function About() {
         semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
         rhoncus mollis diam, sit amet facilisis lectus blandit at.
       </p>
+
+      <footer>
+        <h1 className="Projects">&lt;/About&gt;</h1>
+      </footer>
     </div>
   );
 }

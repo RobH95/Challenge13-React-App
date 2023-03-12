@@ -23,6 +23,8 @@ function Home() {
         <Col xs={6}>Right Column</Col>
       </Row>
 
+      <button className="my-button">Click me!</button>
+
 
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna

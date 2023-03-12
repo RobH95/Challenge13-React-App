@@ -1,27 +1,12 @@
-const path = require('path');
-
 module.exports = {
-  entry: './src/index.js', // Replace with your entry file
-  output: {
-    path: path.resolve(__dirname, 'dist'), // Replace with your output directory
-    filename: 'bundle.js', // Replace with your output filename
-  },
+  // other config options
   module: {
     rules: [
+      // other rules
       {
-        test: /\.s[ac]ss$/,
-        use: [
-          'style-loader',
-          'css-loader',
-          'sass-loader',
-        ],
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader', 'postcss-loader'],
       },
     ],
-  },
-  resolve: {
-    extensions: ['.js', '.jsx', '.scss', '.sass'],
-    alias: {
-      'bootstrap-sass': 'bootstrap-sass/assets',
-    },
   },
 };

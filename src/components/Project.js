@@ -8,7 +8,7 @@ const Project = (props) => {
       <h2>{title}</h2>
       <p>Deployed version: <a href={deployedLink}>{deployedLink}</a></p>
       <p>GitHub repository: <a href={repoLink}>{repoLink}</a></p>
-      <img class="img-responsive fit-image" src={imageURL} alt={title} />
+      <img className="img-responsive fit-image" src={imageURL} alt={title} />
     </div>
   );
 };

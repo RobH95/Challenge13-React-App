@@ -52,7 +52,7 @@ const Projects = () => {
     <div>
     <Container>
 
-      <h1 class="Projects">&lt;Projects&gt;</h1>
+      <h1 className="Projects">&lt;Projects&gt;</h1>
       
     
       <Row>
