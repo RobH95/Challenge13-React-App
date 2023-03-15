@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 
 
 function Home() {
@@ -11,30 +11,14 @@ function Home() {
         </Row>
       </Container>
 
-      
-
-      
-        <h2>My Section Heading</h2>
-        <p>This is some text that describes my section.</p>
-      
-
-      <Row>
-        <Col xs={6}>Left Column</Col>
-        <Col xs={6}>Right Column</Col>
-      </Row>
-
-      <button className="my-button">Click me!</button>
+      <h2>My Section Heading</h2>
+      <p>This is some text that describes my section.</p>
 
 
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna
-        varius, blandit rhoncus sem. Morbi lacinia nisi ac dui fermentum, sed luctus urna tincidunt.
-        Etiam ut feugiat ex. Cras non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna
-        imperdiet ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras rutrum
-        ligula in tincidunt commodo. Morbi sit amet mollis orci, in tristique ex. Donec nec ornare
-        elit. Donec blandit est sed risus feugiat porttitor. Vestibulum molestie hendrerit massa non
-        consequat. Vestibulum vitae lorem tortor. In elementum ultricies tempus. Interdum et
-        malesuada fames ac ante ipsum primis in faucibus.
+        Welcome to my online portfolio! As a front-end web developer, I am excited to share with you my accomplishments, skills, and experiences that have shaped me both professionally and personally. This portfolio is a reflection of my work, showcasing some of the projects I have worked on and my skills in HTML, CSS and JavaScript.
+        My passion for web development has been a new passion of mine, and I am dedicated to constantly expanding my knowledge and skillset in this area. Through this portfolio, I hope to demonstrate my expertise and show how my unique perspective can bring value to your projects.
+        Thank you for taking the time to explore my portfolio, and I look forward to hearing from you.
       </p>
     </div>
   );

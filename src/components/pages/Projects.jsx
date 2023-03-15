@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
+import "./css/projects.css"
 
 
 const Projects = () => {
@@ -50,32 +51,42 @@ const Projects = () => {
 
   return (
     <div>
-    <Container>
+      <Container>
 
-      <h1 className="Projects">&lt;Projects&gt;</h1>
-      
-    
-      <Row>
-        {projects.map((project, index) => (
-          <Col key={index} xs={12} sm={6} md={4} lg={3}>
-            <Card className="mb-4">
-              <Card.Img variant="top" src={project.imageURL} />
-              <Card.Body>
-                <Card.Title>{project.title}</Card.Title>
-                <Card.Link href={project.deployedLink}>Deployed App</Card.Link>
-                <br />
-                <Card.Link href={project.repoLink}>GitHub Repository</Card.Link>
-              </Card.Body>
-            </Card>
-          </Col>
-        ))}
-      </Row>
-    </Container>
+        <h1 className="Projects">&lt;Projects&gt;</h1>
 
-<footer>
-<h1 className="Projects">&lt;/Projects&gt;</h1>
-</footer>
-</div>
+
+        <Row>
+          {projects.map((project, index) => (
+            <Col key={index} xs={12} sm={6} md={4} lg={3}>
+              <Card className="mb-4 cardEl">
+                <Card.Img variant="top" src={project.imageURL} />
+                <Card.Body>
+                  <Card.Title>{project.title}</Card.Title>
+                  <Card.Link href={project.deployedLink}>Deployed App</Card.Link>
+                  <br />
+                  <Card.Link href={project.repoLink}>GitHub Repository</Card.Link>
+                </Card.Body>
+              </Card>
+            </Col>
+          ))}
+        </Row>
+      </Container>
+
+      {/* <div className="card">
+        <div className="card-info">
+          <p className="title">John Doe</p>
+          <p className="subtitle">Web Dev</p>
+        </div>
+        <div className="card-bio">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div> */}
+
+      <footer>
+        <h1 className="Projects">&lt;/Projects&gt;</h1>
+      </footer>
+    </div>
   );
 };
 
