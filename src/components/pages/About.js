@@ -7,15 +7,15 @@ function About() {
       <h1 className="Projects">&lt;About&gt;</h1>
 
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
-        mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
-        porta. Nam quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam
-        semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
-        rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        Hi there! My name is Robert Hearns, and I am a front-end web developer who is passionate about designing and building beautiful, user-friendly websites. I believe that the potential of front-end web development is limitless and that it has the power to transform businesses and improve user experiences online.
+
+        When I'm not coding, you can usually find me hitting the gym or playing video games. I believe that staying active and taking care of your physical health is just as important as nurturing your intellectual and creative pursuits.
+
+        Whether I'm developing a website or working on my fitness, I always strive for excellence and aim to improve with each new challenge. Thanks for taking the time to learn a bit more about me!
       </p>
 
       <footer>
-        <h1 className="Projects">&lt;/About&gt;</h1>
+        <h1 className="About">&lt;/About&gt;</h1>
       </footer>
     </div>
   );
