@@ -34,6 +34,30 @@ p {
     margin-bottom: 50px;
 }
 
+.card-body {
+    background-color: #000;
+    background-image: linear-gradient(to bottom, #000, #333);
+    animation: animate-gradient 5s ease infinite;
+  }
+  
+  @keyframes animate-gradient {
+    0% {
+      background-position: 0% 0%;
+    }
+    50% {
+      background-position: 100% 100%;
+    }
+}
+
+.h5 {
+    color: white;
+}
+
+.card-link {
+    color: greenyellow;
+}
+
+
 .navbar {
     justify-content: center;
     padding: 40px;
