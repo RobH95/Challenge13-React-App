@@ -4,7 +4,7 @@ import React from "react";
 function About() {
   return (
     <div>
-      <h1 className="Projects">&lt;About&gt;</h1>
+      <h1 className="About">&lt;About&gt;</h1>
 
       <p>
         Hi there! My name is Robert Hearns, and I am a front-end web developer who is passionate about designing and building beautiful, user-friendly websites. I believe that the potential of front-end web development is limitless and that it has the power to transform businesses and improve user experiences online.

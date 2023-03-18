@@ -13,12 +13,6 @@ function Contact(props) {
         efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
         
       </p>
-      {/* <Link to="learn" role="button" className="btn btn-link">
-        Learn More
-      </Link>
-      <Link to="contact" role="button" className="btn btn-link">
-        Learn Less
-      </Link> */}
 
       <footer>
         <h1 className="Contact">&lt;/Contact&gt;</h1>
