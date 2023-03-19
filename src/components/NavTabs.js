@@ -26,7 +26,7 @@ function NavTabs() {
             </NavLink>
             </button>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <button>
             <NavLink
               to="challenge13-react-app/blog"
@@ -35,7 +35,7 @@ function NavTabs() {
               Blog
             </NavLink>
           </button>
-        </li>
+        </li> */}
         <li className="nav-item">
           <button>
             <NavLink
