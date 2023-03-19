@@ -7,11 +7,15 @@ function Home() {
     <div>
       <h1>&lt;Home&gt;</h1>
       <h2>let myName = 'Robert Hearns';</h2>
+      <h3>Welcome to my Portfolio</h3>
+      <div>
+        <img src="images/robert-hearns-avatar.jpg" alt="Robert Hearns" style="width: 320px;" />
+      </div>
       
       <p>
-        Welcome to my online portfolio! I'm a front-end web developer excited to share
+         I'm a front-end web developer excited to share
          my skills and experiences with you. This site showcases my work and expertise 
-         in HTML, CSS and JavaScript. As a passionate developer, I'm committed to
+         in HTML, CSS and JavaScript. In addition that, i have been learning about amazing frameworks such as React. As a passionate developer, I'm committed to
           constantly expanding my knowledge. Let me bring value to your projects. 
           Thanks for exploring my portfolio, and I look forward to hearing from you!
       </p>
