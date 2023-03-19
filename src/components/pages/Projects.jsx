@@ -71,6 +71,8 @@ const Projects = () => {
         </Row>
       </Container>
 
+      
+
       <footer>
         <h1 className="Projects">&lt;/Projects&gt;</h1>
       </footer>

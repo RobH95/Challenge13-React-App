@@ -332,6 +332,18 @@ h2 {
     font-family: 'Fira Code', monospace;
 }
 
+h3 {
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Fira Code', monospace;
+}
+
+#avatar {
+    width: 320px;
+    border-radius: 100%;
+}
+
 /* h1.About {
 
 

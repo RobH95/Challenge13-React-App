@@ -9,7 +9,7 @@ function Home() {
       <h2>let myName = 'Robert Hearns';</h2>
       <h3>Welcome to my Portfolio</h3>
       <div>
-        <img src="images/robert-hearns-avatar.jpg" alt="Robert Hearns" style="width: 320px;" />
+        <img id="avatar" src="images/robert-hearns-avatar.jpg" alt="Robert Hearns" />
       </div>
       
       <p>
