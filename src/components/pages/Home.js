@@ -5,8 +5,8 @@ import React from "react";
 function Home() {
   return (
     <div>
-      <h1>&lt;Home&gt;</h1>
-      <h2>let myName = 'Robert Hearns';</h2>
+      <h1 className='Home'>&lt;Home&gt;</h1>
+      <h2 className='Name'>let myName = 'Robert Hearns';</h2>
       <h3>Welcome to my Portfolio</h3>
       <div>
         <img id="avatar" src="images/robert-hearns-avatar.jpg" alt="Robert Hearns" />
